@@ -1,0 +1,39 @@
+*{margin: 0 auto;}
+#total{
+    border: 3px solid blue;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+.esquerda{
+    border: 1px solid red;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.direita {
+    border: 1px solid black;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.texto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
