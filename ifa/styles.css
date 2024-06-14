@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#odu-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.odu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.odu-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.traco-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.traco {
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.traco.aberto {
+    width: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.traco.aberto::before,
+.traco.aberto::after {
+    content: '';
+    width: 10px;
+    height: 50px;
+    background-color: black;
+}
+
+/* Adicionando espaço entre os traços duplos */
+.traco.aberto::after {
+    margin-left: 5px;
+}
